@@ -467,6 +467,27 @@ nav a:hover::before {
 	text-decoration: none;
 	transition: all 0.5s;
 }
+.second-content .resume-btn {
+	display: inline-block;
+}
+
+.second-content .resume-btn a {
+	display: inline-block;
+	background-color: #fff;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #232323;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.second-content .resume-btn a:hover {
+	color: #fff;
+	background-color: transparent;
+}
 
 
 .third-content {
@@ -487,7 +508,27 @@ nav a:hover::before {
 .third-content .first-section .right-image {
 	margin-left: 15px;
 }
+.third-content .git-btn {
+	display: inline-block;
+}
 
+.third-content .git-btn a {
+	display: inline-block;
+	background-color: #fff;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #232323;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.third-content .git-btn a:hover {
+	color: #fff;
+	background-color: transparent;
+}
 .third-content .second-section {
 	margin-top: 30px;
 }
