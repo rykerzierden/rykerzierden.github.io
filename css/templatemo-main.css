@@ -543,7 +543,7 @@ nav a:hover::before {
 }
 
 .third-content h2 {
-	font-size: 24px;
+	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #fff;
@@ -553,6 +553,9 @@ nav a:hover::before {
 	padding-bottom: 10px;
 	margin-bottom: 20px;
 	margin-top: 0px;
+	text-align: left;
+	align-content: left;
+	padding-top: 5px;
 }
 
 .third-content p {
@@ -580,15 +583,22 @@ nav a:hover::before {
 	margin: 0px;
 	padding: 0px;
 }
+.fourth-content .col-md-6 {
+	padding: 0px;
+	height: 400px;
+	 width: 400px; 
+	background-size: 400px; 
+	margin:20px; 
+	background-position: center;
 
-
+}
 .fourth-content {
-	padding: 5px;
+	padding: 0px;
 }
 
 .fourth-content .container-fluid {
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
 .fourth-content .container-fluid .col-md-4 {
@@ -597,8 +607,9 @@ nav a:hover::before {
 }
 
 .fourth-content .item {
-	margin: 10px;
+	margin: 0px;
 }
+
 
 .fourth-content .item img {
 	max-width: 100%;
@@ -618,10 +629,15 @@ nav a:hover::before {
 	top: 0;
 	left: 0;
 	right: 0;
+	
 	opacity: 0;
 	visibility: hidden;
 	transition: all 0.8s;
+	height: 400px;
+	width: 400px;
 }
+
+
 
 .fourth-content .item:hover .hover-effect {
 	opacity: 1;
@@ -632,10 +648,28 @@ nav a:hover::before {
 	transform: translateY(-50%);
     position: absolute;
     text-align: left;
-    width: 100%;
     top: 50%;
     left: 0;
     padding: 30px;
+	height: 400px;
+	width: 400px;
+}
+.fourth-content .item .hover-content {
+	transform: translateY(0%);
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 0;
+    padding: 30px;
+	height: 400px;
+	width: 400px;
+	
+}
+.fourth-content li{
+	color: rgb(225, 225, 225);
+}
+.fourth-content  h1{
+	color: rgb(225, 225, 225);
 }
 
 .fourth-content .item .hover-effect h2 {
@@ -651,16 +685,20 @@ nav a:hover::before {
 	margin-top: 0px;
 }
 .fourth-content h2 {
-	font-size: 24px;
+	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #fff;
+	
+	color: white;
 	letter-spacing: 0.5px;
 	border-bottom: 2px solid #fff;
 	display: inline-block;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
 	margin-top: 0px;
+	text-align: left;
+	align-content: left;
+	padding-top: 5px;
 }
 
 .fourth-content .item .hover-effect p {
@@ -670,6 +708,7 @@ nav a:hover::before {
 	line-height: 22px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
+	color: rgb(255, 255, 255);
 }
 
 
@@ -682,6 +721,7 @@ nav a:hover::before {
 .fifth-content .container-fluid .col-md-6 {
 	padding-left: 0px;
 	padding-right: 0px;
+	
 }
 
 .fifth-content #map {
