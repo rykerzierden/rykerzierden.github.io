@@ -696,8 +696,7 @@ nav a:hover::before {
 	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: 700;
-	
-	color: white;
+	color: #fff;
 	letter-spacing: 0.5px;
 	border-bottom: 2px solid #fff;
 	display: inline-block;
@@ -707,6 +706,7 @@ nav a:hover::before {
 	text-align: left;
 	align-content: left;
 	padding-top: 5px;
+	column-span:all;
 }
 
 .fourth-content .item .hover-effect p {
@@ -922,7 +922,11 @@ nav a:hover::before {
 	}
 
 	.fourth-content .item .hover-effect h2 {
-		font-size: 15px;
+		font-size: 24pt;
+		text-align: left;
+		column-span: all;
+		
+		
 	}
 
 
