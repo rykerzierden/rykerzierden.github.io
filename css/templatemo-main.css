@@ -653,6 +653,8 @@ nav a:hover::before {
     padding: 30px;
 	height: 400px;
 	width: 400px;
+	columns: 2;
+	color: #fff;
 }
 .fourth-content .item .hover-content {
 	transform: translateY(0%);
@@ -663,13 +665,19 @@ nav a:hover::before {
     padding: 30px;
 	height: 400px;
 	width: 400px;
-	
+	columns: 2;
+	align-content: start;
+	color:rgb(193, 193, 193);
 }
 .fourth-content li{
-	color: rgb(225, 225, 225);
+	line-height: 40px;
+	margin-left: 10px;
+
 }
+
 .fourth-content  h1{
-	color: rgb(225, 225, 225);
+	font-size: 24pt;
+	column-span: all;
 }
 
 .fourth-content .item .hover-effect h2 {

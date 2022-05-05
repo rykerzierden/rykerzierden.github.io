@@ -1,0 +1,2 @@
+### Notes ###
+This folder contains the source code for the virtual reality demos that I made to show off the functionality of the haptic fabric project. The source code for the haptic fabric itself cannot be shared at this time due to an IP agreement that was signed with Minnetronix at the start of the project.
