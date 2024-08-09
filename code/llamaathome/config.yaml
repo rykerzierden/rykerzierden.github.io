@@ -1,0 +1,17 @@
+# configuration file for llama at home
+--- 
+llama_at_home:
+  # put home assistant instance information here. The API key is specific to your home assistant instance and must be generated for this tool
+  url: "http://homeassistant:8123"
+  api_key: "API_KEY"
+  # this file provides optional training prompts to help tune the output of the model. Regardless, the model will be given the available entities and services
+  training_inputs_path: "training_inputs.txt"
+  # this option resets the model after each prompt, preventing hallucination in some cases
+  reset_after_prompt: false
+  # this option enables debug messages, which prints hidden communications with the LLM
+  debug_messages: true
+  # this option disables home assistant API communication and instead simulates the results of each call
+  simulate_api_communication: false
+  # generate request bodies
+  generate_request_bodies: true
+  
