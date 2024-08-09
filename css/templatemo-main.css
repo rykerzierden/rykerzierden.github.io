@@ -503,7 +503,13 @@ nav a:hover::before {
 
 .third-content .first-section .left-content {
 	margin-right: 15px;
-	margin-top: 12px;
+}
+
+.third-content .container-fluid .content-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 15px;
 }
 
 .third-content .first-section .right-image {
@@ -536,7 +542,6 @@ nav a:hover::before {
 
 .third-content .second-section .right-content {
 	margin-left: 15px;
-	margin-top: 12px;
 }
 
 .third-content .second-section .left-image {
@@ -869,19 +874,11 @@ nav a:hover::before {
 		margin-bottom: 45px;
 	}
 
-	.third-content .first-section .left-content {
-		margin-right: 0px;
-		margin-bottom: 30px;
-	}
 
 	.third-content .first-section .right-image {
 		margin-left: 0px;
 	}
 
-	.third-content .second-section .right-content {
-		margin-left: 0px;
-		margin-top: 30px;
-	}
 
 
 	.third-content .second-section .left-image {
