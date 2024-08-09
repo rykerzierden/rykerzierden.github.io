@@ -670,14 +670,26 @@ nav a:hover::before {
 }*/
 .fourth-content .item .hover-content {
 	text-align: left;
-
 	aspect-ratio: 1;
 	/*color: rgb(193, 193, 193);*/
 	color: #fff;
 
 }
+.fourth-content .item .hover-content .ul {
+	display: flex;
+	justify-content:space-evenly;
+	align-items: center;
+}
+
+.fourth-content .col-md-6{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .fourth-content li{
 	line-height: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
 
 
 }
